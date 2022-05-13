@@ -7,7 +7,7 @@ import { useStore } from 'vuex'
 
 const store = useStore()
 
-let get_isa_store = function () {
+let get_isa_store = () => {
   store.dispatch('get_isa_store')
 }
 
